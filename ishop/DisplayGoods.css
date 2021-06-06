@@ -1,0 +1,26 @@
+.display-goods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Verdana;
+}
+
+.display-goods > .company-name {
+    font-size: 40px; 
+    border-bottom: 2px dotted grey;
+}
+
+.display-goods > table {
+    border-collapse: collapse;
+    font-size: 24px;
+}
+
+.display-goods th, .display-goods td {
+    border: 2px solid lightgrey;
+    padding: 30px;
+}
+
+.display-goods th {
+    font-size: 28px;
+}
