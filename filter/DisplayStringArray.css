@@ -1,0 +1,10 @@
+.output {
+	overflow-y: scroll;
+	height: 100px;
+	width: 220px;
+	border: 1px solid black; 
+	margin-top: 5px;
+}
+span {
+	display: block;
+}
