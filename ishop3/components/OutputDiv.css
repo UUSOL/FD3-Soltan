@@ -1,0 +1,26 @@
+.OutputDiv {
+    width: 800px;
+    float: left;
+}
+.field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: Verdana;
+    padding: 20px;
+}
+.field input {
+    width: 200px;
+    font-size: 20px;
+    font-family: Verdana;
+    border-radius:5px;
+}
+.hidden {
+    visibility: hidden;
+}
+.error {
+    color: red;
+}
+

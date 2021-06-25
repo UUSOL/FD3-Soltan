@@ -1,0 +1,37 @@
+.display-goods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Verdana;
+}
+.display-goods > .company-name {
+    font-size: 40px; 
+    border-bottom: 2px dotted grey;
+}
+.display-goods > table {
+    border-collapse: collapse;
+    font-size: 24px;
+}
+.display-goods th, .display-goods td {
+    border: 2px solid lightgrey;
+    padding: 10px;
+}
+.display-goods th {
+    font-size: 28px;
+}
+.display-goods .focused {
+    background-color: orange;
+}
+.display-goods button {
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+}
+.display-goods button:hover {
+    box-shadow: 5px 5px 5px 5px grey;
+    cursor: pointer;
+}
+.display-goods .disabled {
+	pointer-events: none;
+}
