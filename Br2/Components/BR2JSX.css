@@ -1,0 +1,15 @@
+.BR2JSX {
+    display: flex;
+    margin: 15px auto;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    background-color: grey;
+    font-size: 35px;
+    font-family: Verdana;
+    color: white;
+}
+.BR2JSX br {
+    margin: 10px;
+}
