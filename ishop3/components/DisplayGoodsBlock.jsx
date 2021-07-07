@@ -84,6 +84,7 @@ class DisplayGoodsBlock extends React.Component {
                                     cbEdit={this.cbEdit}
        								cbDelete={this.cbDelete}
        								isSelected={this.state.goodSelected == good.code}
+                                    isInChangeMode={this.state.isInChangeMode}
        								good={good} />);
 
     	return (              
@@ -97,7 +98,7 @@ class DisplayGoodsBlock extends React.Component {
                     </table>
                     <button onClick={this.create}
                             className={ (this.state.isInChangeMode) ? 'disabled': null} 
-                            disabled={this.state.workmode === 'create'}>
+                            disabled={this.state.workmode === 'create' || this.state.isInChangeMode}>
                                 Create
                     </button>
                     { 

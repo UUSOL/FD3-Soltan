@@ -9,6 +9,7 @@ class Good extends React.Component {
         cbEdit: PropTypes.func.isRequired, 
         cbDelete: PropTypes.func.isRequired,
         isSelected: PropTypes.bool.isRequired,
+        isInChangeMode: PropTypes.bool.isRequired,
         good: PropTypes.shape({
                 title: PropTypes.string.isRequired,
                 price: PropTypes.string.isRequired,
@@ -46,11 +47,13 @@ class Good extends React.Component {
                         <td>{this.props.good.quantity}</td>
                         <td>
                             <button data-id={this.props.good.code} 
-                                    onClick={this.editRow}>
+                                    onClick={this.editRow}
+                                    disabled={this.props.isInChangeMode}>
                                         EDIT
                             </button>
                             <button data-id={this.props.good.code} 
-                                    onClick={this.deleteRow}>
+                                    onClick={this.deleteRow}
+                                    disabled={this.props.isInChangeMode}>
                                         DELETE
                             </button>
                         </td>
