@@ -1,0 +1,19 @@
+body {
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.MobileCompany > input {
+    padding: 5px;
+    font-family: Verdana;
+    width: 70px;
+}
+
+.MobileCompany > .Add {
+    width: 150px;
+} 
+
+.headers > th {
+    padding: 10px 20px;
+    text-align: left;
+  }
